@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "rm -rf build && cp -r source build && babel --presets es2015 source -d build && webpack build/index.js build/bundle.js && webpack build/index.onload.js build/bundle.onload.js",
+    "build": "rm -rf build && cp -r source build && babel --presets es2015 source -d build && webpack build/index.js build/bundle.js && webpack build/index.onload.js build/bundle.onload.js && webpack build/index.root.js build/bundle.root.js",
     "start": "http-server"
   },
   "repository": {
