@@ -6,7 +6,7 @@ import {app, html} from 'hyperapp/hx'
 
 // region app
 
-window.addEventListener('load', app({
+window.addEventListener('load', () => app({
 	view: () => html`
 		<div style=${{
 			position: 'fixed',
