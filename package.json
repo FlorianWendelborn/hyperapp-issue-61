@@ -1,0 +1,29 @@
+{
+  "name": "hyperapp-issue-61",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf build && cp -r source build && babel --presets es2015 source -d build && webpack build/index.js build/bundle.js && webpack build/index.onload.js build/bundle.onload.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dodekeract@github.com/dodekeract/hyperapp-issue-61.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dodekeract/hyperapp-issue-61/issues"
+  },
+  "homepage": "https://github.com/dodekeract/hyperapp-issue-61#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "http-server": "^0.9.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "hyperapp": "0.0.12"
+  }
+}
