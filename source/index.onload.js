@@ -1,6 +1,6 @@
 // region import
 
-import {app, html} from 'hyperapp/hx'
+import {app, html} from 'hyperapp'
 
 // endregion
 

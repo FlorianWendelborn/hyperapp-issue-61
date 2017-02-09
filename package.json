@@ -24,6 +24,6 @@
     "webpack": "^2.2.1"
   },
   "dependencies": {
-    "hyperapp": "0.0.12"
+    "hyperapp": "git+ssh://git@github.com/hyperapp/hyperapp.git"
   }
 }
