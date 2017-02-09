@@ -16,6 +16,9 @@ window.addEventListener('load', () => app({
 		}}>
 			View
 		</div>`,
+	subscriptions: [
+		_ => alert(1)
+	]
 }))
 
 // endregion
